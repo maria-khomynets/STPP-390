@@ -1,1 +1,8 @@
 /* Header Section Styles */
+[data-visible='open'] {
+  display: flex;
+}
+
+[data-visible='close'] {
+  display: none;
+}
