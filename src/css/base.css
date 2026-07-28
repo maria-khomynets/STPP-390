@@ -1,32 +1,25 @@
 :root {
-  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
+  /* Fonts */
+  --font-family: 'Mulish', sans-serif;
+  --second-family: 'Inter', sans-serif;
+  --third-family: 'Quicksand', sans-serif;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  /* Colors */
+  --color-primary: #4778f1;
+  --color-text: #3a332e;
+  --color-bg-light: #ffefd4;
+  --color-bg-dark: #f6ddb5;
+  --color-white: #ffffff;
+  --color-black: #000000;
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
   margin: 0;
-}
-
-main {
-  flex-grow: 1;
-}
-main:has(.back-link) {
-  text-align: center;
+  min-width: 320px;
+  font-family: var(--font-family);
+  color: var(--color-text);
 }
