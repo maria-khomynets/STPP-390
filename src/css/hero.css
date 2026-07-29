@@ -1,1 +1,59 @@
 /* Hero Section Styles */
+.hero {
+  background-color: #fdf8f0;
+  max-width: 375px;
+  margin: 0 auto;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px; /* відступ від фонового блоку з дідусем до кубика */
+}
+.hero-content {
+  width: 100%;
+  box-sizing: border-box;
+
+  /* Точні падінги з вашого скріншоту Figma: */
+  /* padding: top (153px) right (33px) bottom (411px) left (44px) */
+  padding: 153px 33px 411px 44px;
+
+  /* Фонове зображення дідуся */
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-image: image-set(
+    url('../img/sections/hero/hero-mob-1x.png') 1x,
+    url('../img/sections/hero/hero-mob-2x.png') 2x
+  );
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-title {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  color: #1e1e1e;
+}
+.hero-text {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #1e1e1e;
+}
+.hero-link {
+}
+.hero-link-image {
+}
+.hero-picture {
+  display: block;
+  /* Ваші стилі для кубика */
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  transform: rotate(-15deg);
+  border-radius: 40px;
+}
+.hero-image {
+}

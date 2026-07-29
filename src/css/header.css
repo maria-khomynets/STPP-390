@@ -1,11 +1,4 @@
 /* Header Section Styles */
-[data-visible='open'] {
-  display: flex;
-}
-
-[data-visible='close'] {
-  display: none;
-}
 
 .header-container {
   display: flex;
@@ -29,5 +22,37 @@
   background-color: transparent;
   display: block;
 }
-.header-burger-icon {
+
+@media screen and (min-width: 1440px) {
+  .header-nav {
+    display: block;
+  }
+
+  .header-btn {
+    display: block;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #4778f1;
+    border-radius: 10px;
+    padding: 8px 37px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #fff;
+  }
+  .header-burger {
+    display: none;
+  }
+  .header-container {
+    padding: 32px 79px 32px 80px;
+  }
+
+  .header-nav-list {
+    display: flex;
+    gap: 62px;
+  }
+  .header-nav-item {
+    font-weight: 400;
+    font-size: 14px;
+  }
 }
