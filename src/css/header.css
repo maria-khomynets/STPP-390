@@ -6,3 +6,28 @@
 [data-visible='close'] {
   display: none;
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 24px 28px 24px;
+}
+.header-logo {
+  display: block;
+}
+.header-nav {
+  display: none;
+}
+
+.header-btn {
+  display: none;
+}
+.header-burger {
+  padding: 8px;
+  border: none;
+  background-color: transparent;
+  display: block;
+}
+.header-burger-icon {
+}

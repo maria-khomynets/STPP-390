@@ -1,0 +1,81 @@
+.mobile-menu {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-color: #e0cbb4;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateX(100%);
+  transition:
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 300ms ease;
+}
+
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(0);
+}
+
+.mobile-menu-container {
+  width: 100%;
+  max-width: 375px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.logo-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 16px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-menu-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+
+  padding: 0;
+  border: none;
+
+  background: transparent;
+  cursor: pointer;
+}
+
+.mobile-menu-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex: 1;
+}
+
+.nav-list-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}
