@@ -8,17 +8,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px; /* відступ від фонового блоку з дідусем до кубика */
+  padding: 0;
 }
 .hero-content {
   width: 100%;
   box-sizing: border-box;
-
-  /* Точні падінги з вашого скріншоту Figma: */
-  /* padding: top (153px) right (33px) bottom (411px) left (44px) */
+  margin-bottom: 23px;
   padding: 153px 33px 411px 44px;
-
-  /* Фонове зображення дідуся */
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -37,23 +33,74 @@
   font-size: 40px;
   text-align: center;
   color: #1e1e1e;
+  margin-bottom: 16px;
 }
 .hero-text {
   font-weight: 400;
   font-size: 16px;
   text-align: center;
   color: #1e1e1e;
+  margin-bottom: 40px;
 }
-.hero-link {
-}
-.hero-link-image {
-}
+
 .hero-picture {
   display: block;
-  /* Ваші стилі для кубика */
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  transform: rotate(-15deg);
-  border-radius: 40px;
 }
 .hero-image {
+  transform: rotate(15deg);
+  border-radius: 40px;
+  width: 200px;
+  height: 200px;
+}
+@media screen and (min-width: 1440px) {
+  .hero {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 242px;
+    padding-bottom: 242px;
+    padding-left: 80px;
+    height: 738px;
+    max-width: 1440px;
+    background-image: image-set(
+      url('../img/sections/hero/hero-desc-1x.png') 1x,
+      url('../img/sections/hero/hero-desc-2x.png') 2x
+    );
+  }
+
+  .hero-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+  }
+  .hero-content {
+    background-image: none;
+    align-items: flex-start;
+    padding: 0;
+    margin-bottom: 0;
+    width: auto;
+    max-width: 546px;
+  }
+  .hero-title {
+    font-size: 64px;
+    text-align: left;
+  }
+  .hero-text {
+    font-size: 24px;
+    text-align: left;
+    max-width: 443px;
+  }
+
+  .hero-link-image {
+  }
+  .hero-picture {
+    flex-shrink: 0;
+    margin-left: auto;
+  }
+  .hero-image {
+    width: 494px;
+    height: 439px;
+  }
 }
