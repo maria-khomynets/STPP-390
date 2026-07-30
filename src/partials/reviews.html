@@ -1,3 +1,146 @@
 <section class="reviews section" id="reviews">
-  <div class="container"></div>
+  <div class="reviews-container container">
+    <picture class="reviews-diamond">
+      <source media="(min-width: 1440px)"
+        srcset="/img/sections/Reviews/diamonds-desktop.png 1x, /img/sections/Reviews/diamonds-desktop@2x.png 2x" />
+      <img src="/img/sections/Reviews/diamond-mobile.png" srcset="/img/sections/Reviews/diamond-mobile@2x.png 2x" alt=""
+        aria-hidden="true" class="reviews-diamond-img" width="40" height="40" loading="lazy" />
+
+    </picture>
+    <h2 class="reviews-title">Reviews</h2>
+    <p class="reviews-subtitle">What players are saying</p>
+    <div class="swiper reviews-swiper" data-reviews-swiper>
+      <ul class="swiper-wrapper" id="reviews-container">
+        <li class="swiper-slide">
+          <div class="review-card">
+            <h3 class="review-author">WanderPuzzler</h3>
+            <div class="review-rating">
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+            </div>
+            <p class="review-text">"Such a calming way to unwind — love the travel theme."</p>
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="review-card">
+            <h3 class="review-author">Hannah G</h3>
+            <div class="review-rating">
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-empty-star}"></use>
+              </svg>
+            </div>
+            <p class="review-text">"Decorating my rest stops with collected items is so satisfying."</p>
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="review-card">
+            <h3 class="review-author">GlobeTrotMatch</h3>
+            <div class="review-rating">
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+            </div>
+            <p class="review-text">"Each region feels completely different — never boring."</p>
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="review-card">
+            <h3 class="review-author">Leo M.</h3>
+            <div class="review-rating">
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-empty-star}"></use>
+              </svg>
+            </div>
+            <p class="review-text">"The boosters are clever and genuinely helpful."</p>
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="review-card">
+            <h3 class="review-author">CozyJourneyFan</h3>
+            <div class="review-rating">
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+              <svg class="star-icon" width="20" height="20">
+                <use href="{=$icon-star}"></use>
+              </svg>
+            </div>
+            <p class="review-text">"Finding hidden surprises in levels is such a nice touch."</p>
+          </div>
+        </li>
+      </ul>
+      <div class="reviews-buttons">
+        <button type="button" class="reviews-swiper-btn reviews-swiper-btn-prev" data-swiper-prev
+          aria-label="Previous slide">
+          <svg class="reviews-arrow-icon" width="10" height="10">
+            <use href="./images/icons.svg#icon-arrow-left"></use>
+          </svg>
+        </button>
+        <button type="button" class="reviews-swiper-btn reviews-swiper-btn-next" data-swiper-next
+          aria-label="Next slide">
+          <svg class="reviews-arrow-icon" width="10" height="10">
+            <use href="./images/icons.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
 </section>
