@@ -11,10 +11,17 @@
   --color-bg-dark: #f6ddb5;
   --color-white: #ffffff;
   --color-black: #000000;
+  
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 
