@@ -45,6 +45,7 @@
 
 .hero-picture {
   display: block;
+  margin-bottom: 23px;
 }
 .hero-image {
   transform: rotate(15deg);
@@ -97,7 +98,7 @@
     flex-shrink: 0;
     margin-left: auto;
     position: absolute;
-
+    margin-bottom: 0;
     right: 150px;
   }
   .hero-image {
