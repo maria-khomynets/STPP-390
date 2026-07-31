@@ -2,7 +2,7 @@
   position: fixed;
   inset: 0;
   z-index: 9999;
-  background-color: #e0cbb4;
+  background-color: var(--color-bg-menu);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -29,7 +29,7 @@
   flex-direction: column;
   overflow-y: auto;
   padding: 32px 24px;
-  background-color: #fff;
+  background-color: var(--color-white);
 }
 
 .logo-btn-container {
@@ -86,13 +86,13 @@
   text-align: center;
   padding: 8px 100px;
   max-height: 36px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  background: #4778f1;
+  box-shadow: var(--shadow-card);
+  background: var(--color-primary);
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 14px;
   line-height: 1.42857;
-  color: #fff;
+  color: var(--color-white);
 }
 @media screen and (min-width: 1440px) {
   .mobile-menu {

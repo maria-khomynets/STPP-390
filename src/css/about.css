@@ -2,7 +2,11 @@
 .about {
   max-width: 375px;
   margin: 0 auto;
-  background: linear-gradient(113deg, #f6ddb5 12.65%, #ffefd4 67.25%);
+  background: linear-gradient(
+    113deg,
+    var(--color-bg-dark) 12.65%,
+    var(--color-bg-light) 67.25%
+  );
 }
 .about-container {
   display: flex;

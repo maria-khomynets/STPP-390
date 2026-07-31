@@ -1,6 +1,6 @@
 /* How to Play Section Styles */
 .how-to-play {
-  background-color: #fdf8f0;
+  background-color: var(--color-bg-cream);
   overflow: hidden;
   max-width: 375px;
   margin: 0 auto;

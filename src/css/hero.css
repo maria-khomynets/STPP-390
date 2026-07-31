@@ -1,6 +1,6 @@
 /* Hero Section Styles */
 .hero {
-  background-color: #fdf8f0;
+  background-color: var(--color-bg-cream);
   max-width: 375px;
   margin: 0 auto;
 }
@@ -32,14 +32,14 @@
   font-weight: 500;
   font-size: 40px;
   text-align: center;
-  color: #1e1e1e;
+  color: var(--color-title);
   margin-bottom: 16px;
 }
 .hero-text {
   font-weight: 400;
   font-size: 16px;
   text-align: center;
-  color: #1e1e1e;
+  color: var(--color-title);
   margin-bottom: 40px;
 }
 
