@@ -1,1 +1,112 @@
 /* How to Play Section Styles */
+.how-to-play {
+  background-color: var(--color-bg-cream);
+  overflow: hidden;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.how-to-play-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.how-to-play-diamond-big {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  transform: rotate(33deg);
+}
+
+.how-to-play-diamond-small {
+  position: absolute;
+  top: 135px;
+  left: 25px;
+  transform: rotate(-6deg);
+}
+
+.how-to-play-title {
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.how-to-play-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.how-to-play-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.how-to-play-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.how-to-play-icon {
+  margin-bottom: 19px;
+}
+
+.how-to-play-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 9px;
+}
+
+.how-to-play-item-text {
+  font-weight: 400;
+  font-size: 12px;
+
+  max-width: 250px;
+}
+
+@media screen and (min-width: 1440px) {
+  .how-to-play {
+    max-width: 1440px;
+  }
+
+  .how-to-play-container {
+    max-width: 1440px;
+    padding: 140px 88px;
+  }
+
+  .how-to-play-diamond-big {
+    top: 35px;
+    left: 95px;
+  }
+
+  .how-to-play-diamond-small {
+    top: 95px;
+    left: 172px;
+  }
+
+  .how-to-play-subtitle {
+    margin-bottom: 60px;
+  }
+
+  .how-to-play-list {
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    align-items: flex-start;
+  }
+
+  .how-to-play-item {
+    max-width: 220px;
+  }
+}
