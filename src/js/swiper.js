@@ -15,12 +15,14 @@ function initReviewsSwiper() {
     slidesPerView: 1,      
     spaceBetween: 34,
     grabCursor: true,
-    loop: true,
+    loop: false,
 
     navigation: {
       nextEl: '[data-swiper-next]',
       prevEl: '[data-swiper-prev]',
+      disabledClass: 'swiper-button-disabled',
     },
+    
 
     breakpoints: {
       1440: {
