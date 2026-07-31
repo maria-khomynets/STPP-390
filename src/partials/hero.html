@@ -2,8 +2,8 @@
   <div class="container hero-container">
     <div class="hero-content">
       <h1 class="hero-title">
-        Match Calmly.<br />
-        Travel Freely.
+        Match Calmly.
+        <span>Travel Freely.</span>
       </h1>
 
       <p class="hero-text">
@@ -12,19 +12,41 @@
       </p>
 
       <a
-        class="hero-btn"
+        class="hero-link"
         href="https://play.google.com/store/apps/details?id=com.dream.fun.journeymatch&hl=en&gl=us"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Download Travel Decor: Journey Match on Google Play"
+        aria-label="Download on Google Play"
       >
         <img
-          src="/img/google-play/google-play.png"
-          alt="Get it on Google Play"
-          width="160"
-          height="48"
+          class="hero-link-image"
+          width="135"
+          height="40"
+          src="./img/sections/hero/google-play.png"
+          alt="Download on Google Play"
         />
       </a>
     </div>
+    <picture class="hero-picture">
+      <source
+        media="(min-width: 1440px)"
+        srcset="
+          ./img/sections/hero/kube-desc-1x.png 1x,
+          ./img/sections/hero/kube-desc-2x.png 2x
+        "
+      />
+
+      <img
+        class="hero-image"
+        src="./img/sections/hero/kube-mob-1x.png"
+        srcset="
+          ./img/sections/hero/kube-mob-1x.png 1x,
+          ./img/sections/hero/kube-mob-2x.png 2x
+        "
+        alt="Game cubes"
+        width="200"
+        height="200"
+      />
+    </picture>
   </div>
 </section>

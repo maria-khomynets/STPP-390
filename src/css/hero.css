@@ -1,1 +1,108 @@
 /* Hero Section Styles */
+.hero {
+  background-color: var(--color-bg-cream);
+  max-width: 375px;
+  margin: 0 auto;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+.hero-content {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 23px;
+  padding: 153px 33px 411px 44px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-image: image-set(
+    url('../img/sections/hero/hero-mob-1x.png') 1x,
+    url('../img/sections/hero/hero-mob-2x.png') 2x
+  );
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-title {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  color: var(--color-title);
+  margin-bottom: 16px;
+}
+.hero-text {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: var(--color-title);
+  margin-bottom: 40px;
+}
+
+.hero-picture {
+  display: block;
+  margin-bottom: 23px;
+}
+.hero-image {
+  transform: rotate(15deg);
+  border-radius: 40px;
+  width: 200px;
+  height: 200px;
+}
+@media screen and (min-width: 1440px) {
+  .hero {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding-left: 80px;
+    height: 800px;
+    max-width: 1440px;
+    background-image: image-set(
+      url('../img/sections/hero/hero-desc-1x.png') 1x,
+      url('../img/sections/hero/hero-desc-2x.png') 2x
+    );
+  }
+
+  .hero-container {
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+  }
+  .hero-content {
+    background-image: none;
+    align-items: flex-start;
+    padding: 0;
+    margin-bottom: 0;
+    width: auto;
+    max-width: 546px;
+  }
+  .hero-title {
+    font-size: 64px;
+    text-align: left;
+  }
+  .hero-text {
+    font-size: 24px;
+    text-align: left;
+    max-width: 443px;
+  }
+
+  .hero-picture {
+    flex-shrink: 0;
+    margin-left: auto;
+    position: absolute;
+    margin-bottom: 0;
+    right: 150px;
+  }
+  .hero-image {
+    width: 494px;
+    height: 439px;
+  }
+}

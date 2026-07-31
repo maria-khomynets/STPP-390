@@ -13,6 +13,7 @@
     "glob": "^11.0.0",
     "postcss": "^8.5.14",
     "postcss-sort-media-queries": "^5.2.0",
+    "prettier": "^3.9.6",
     "sharp": "^0.34.5",
     "svgo": "^4.0.1",
     "vite": "^5.4.6",

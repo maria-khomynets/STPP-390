@@ -1,8 +1,12 @@
 /* Features Section Styles */
 
 .features {
-    background-color: #f6ddb5;
-    background-image: linear-gradient(251.36deg, #f6ddb5 22.39%, #ffefd4 96.24%);
+    background-color: var(--color-bg-dark);
+    background-image: linear-gradient(
+        251.36deg,
+        var(--color-bg-dark) 22.39%,
+        var(--color-bg-light) 96.24%
+    );
     padding: 40px 0;
 }
 
@@ -31,8 +35,8 @@
 
 .features-item {
     border-radius: 15px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    background-color: #fff;
+    box-shadow: var(--shadow-card);
+    background-color: var(--color-white);
     padding: 13px 32px;
 }
 
