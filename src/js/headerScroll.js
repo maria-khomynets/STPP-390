@@ -1,8 +1,8 @@
-const headerEl = document.querySelector('.header');
+const headerEl = document.querySelector('[data-scrolled]');
 
 if (headerEl) {
   const toggleScrolled = () => {
-    headerEl.classList.toggle('is-scrolled', window.scrollY > 10);
+    headerEl.dataset.scrolled = window.scrollY > 10 ? 'true' : 'false';
   };
 
   toggleScrolled();
