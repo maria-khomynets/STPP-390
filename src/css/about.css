@@ -66,12 +66,7 @@
   .about-content {
     gap: 20px;
   }
-  .about-icon {
-  }
-  .about-title {
-  }
-  .about-subtitle {
-  }
+
   .about-text {
     font-size: 18px;
     padding: 0;
@@ -94,8 +89,7 @@
     position: static;
     margin-bottom: 65px;
   }
-  .about-picture-main {
-  }
+
   .about-img-main {
     width: 191px;
     height: auto;
