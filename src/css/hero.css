@@ -1,8 +1,6 @@
 /* Hero Section Styles */
 .hero {
   background-color: var(--color-bg-cream);
-  max-width: 375px;
-  margin: 0 auto;
 }
 .hero-container {
   display: flex;
@@ -61,7 +59,7 @@
 
     padding-left: 80px;
     height: 800px;
-    max-width: 1440px;
+
     background-image: image-set(
       url('../img/sections/hero/hero-desc-1x.png') 1x,
       url('../img/sections/hero/hero-desc-2x.png') 2x

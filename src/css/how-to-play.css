@@ -2,8 +2,6 @@
 .how-to-play {
   background-color: var(--color-bg-cream);
   overflow: hidden;
-  max-width: 375px;
-  margin: 0 auto;
 }
 
 .how-to-play-container {
@@ -76,10 +74,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .how-to-play {
-    max-width: 1440px;
-  }
-
   .how-to-play-container {
     max-width: 1440px;
     padding: 140px 88px;

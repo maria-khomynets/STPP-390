@@ -1,7 +1,5 @@
 /* About Section Styles */
 .about {
-  max-width: 375px;
-  margin: 0 auto;
   background: linear-gradient(
     113deg,
     var(--color-bg-dark) 12.65%,
@@ -59,10 +57,6 @@
   height: auto;
 }
 @media screen and (min-width: 1440px) {
-  .about {
-    max-width: 1440px;
-  }
-
   .about-container {
     flex-direction: row-reverse;
     gap: 242px;
