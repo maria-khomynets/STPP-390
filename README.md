@@ -8,11 +8,18 @@
 
 https://maria-khomynets.github.io/STPP-390/
 
-## Розробники
+## Команда
+
+**Розробники:**
 
 - **Maria Khomynets** —
   [masha.khomynets@gmail.com](mailto:masha.khomynets@gmail.com)
 - **Igor Bilovash** — [belovash2002@gmail.com](mailto:belovash2002@gmail.com)
+
+**Дизайнер:**
+
+- **Зінаїда Компанієць** —
+  [zinaida24979topal@gmail.com](mailto:zinaida24979topal@gmail.com)
 
 ## Стек
 
