@@ -1,11 +1,18 @@
 # Travel Decor: Journey Match — Landing Page
 
-Лендінг мобільної гри **Travel Decor: Journey Match** — заспокійлива match-3 подорож світом.
-Адаптивна верстка (mobile-first), збірка на Vite, автоматичний деплой на GitHub Pages.
+Лендінг мобільної гри **Travel Decor: Journey Match** — заспокійлива match-3
+подорож світом. Адаптивна верстка (mobile-first), збірка на Vite, автоматичний
+деплой на GitHub Pages.
 
 ## Live demo
 
 https://maria-khomynets.github.io/STPP-390/
+
+## Розробники
+
+- **Maria Khomynets** —
+  [masha.khomynets@gmail.com](mailto:masha.khomynets@gmail.com)
+- **Igor Bilovash** — [belovash2002@gmail.com](mailto:belovash2002@gmail.com)
 
 ## Стек
 
@@ -48,15 +55,11 @@ npm run preview  # локальний перегляд збірки
 ## Деплой
 
 Автоматичний через GitHub Actions: на push у гілку `main` workflow
-`.github/workflows/deploy.yml` збирає проєкт і публікує `dist/` у гілку `gh-pages`.
+`.github/workflows/deploy.yml` збирає проєкт і публікує `dist/` у гілку
+`gh-pages`.
 
 ## Особливості
 
 - Зображення підключені через абсолютні шляхи від кореня (`/img/...`)
 - Анімації AOS поважають `prefers-reduced-motion`
 - Повна адаптивність: мобільний, планшет, десктоп (1440px)
-
-## Розробники
-
-- **Maria Khomynets** — [masha.khomynets@gmail.com](mailto:masha.khomynets@gmail.com)
-- **Igor Bilovash** — [belovash2002@gmail.com](mailto:belovash2002@gmail.com)
