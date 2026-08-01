@@ -1,12 +1,7 @@
 /* Features Section Styles */
 
 .features {
-    background-color: var(--color-bg-dark);
-    background-image: linear-gradient(
-        251.36deg,
-        var(--color-bg-dark) 22.39%,
-        var(--color-bg-light) 96.24%
-    );
+    background: linear-gradient(251.36deg, #f6ddb5 17.52%, #ffefd4 62.61%);
     padding: 40px 0;
 }
 
@@ -47,8 +42,40 @@
     margin-bottom: 10px;
 }
 
+.features-icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.features-icon-circle--purple {
+  background-color: #f0eafa;
+}
+
+.features-icon-circle--teal {
+  background-color: #eaf5f3;
+}
+
+.features-icon-circle--amber {
+  background-color: #f5f0ea;
+}
+
+.features-icon-circle--green {
+  background-color: #eaf5eb;
+}
+
+.features-icon-circle--rose {
+  background-color: rgba(240, 210, 218, 0.3);
+}
+
 .features-item-icon {
     flex-shrink: 0;
+    width: 24px;
+    height: 24px;
 }
 
 .features-item-title {
