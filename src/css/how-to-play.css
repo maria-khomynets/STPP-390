@@ -55,8 +55,39 @@
   text-align: center;
 }
 
-.how-to-play-icon {
+.how-to-play-icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
   margin-bottom: 19px;
+}
+
+.how-to-play-icon-circle--purple {
+  background-color: #f0eafa;
+}
+
+.how-to-play-icon-circle--teal {
+  background-color: #eaf5f3;
+}
+
+.how-to-play-icon-circle--amber {
+  background-color: #f5f0ea;
+}
+
+.how-to-play-icon-circle--green {
+  background-color: #eaf5eb;
+}
+
+.how-to-play-icon-circle--rose {
+  background-color: rgba(240, 210, 218, 0.3);
+}
+
+.how-to-play-icon {
+  width: 48px;
+  height: 48px;
 }
 
 .how-to-play-item-title {
@@ -98,9 +129,5 @@
     justify-content: center;
     gap: 5px;
     align-items: flex-start;
-  }
-
-  .how-to-play-item {
-    max-width: 220px;
   }
 }
