@@ -55,3 +55,8 @@ npm run preview  # локальний перегляд збірки
 - Зображення підключені через абсолютні шляхи від кореня (`/img/...`)
 - Анімації AOS поважають `prefers-reduced-motion`
 - Повна адаптивність: мобільний, планшет, десктоп (1440px)
+
+## Розробники
+
+- **Maria Khomynets** — [masha.khomynets@gmail.com](mailto:masha.khomynets@gmail.com)
+- **Igor Bilovash** — [belovash2002@gmail.com](mailto:belovash2002@gmail.com)
